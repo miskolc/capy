@@ -42,8 +42,8 @@ end
 gem 'capistrano', '~> 3.1.0'
 gem 'capistrano-bundler', '~> 1.1.2'
 gem 'capistrano-rails', '~> 1.1.1'
-gem 'net-ssh', '~> 2.8.1', :git => "https://github.com/net-ssh/net-ssh"
+gem 'net-ssh', '~> 2.9.1'#, :git => "https://github.com/net-ssh/net-ssh"
 
-gem 'capistrano-rvm', github: "capistrano/rvm"
+gem 'rvm1-capistrano3', :require => false
 # Use debugger
 # gem 'debugger', group: [:development, :test]
